@@ -7,3 +7,5 @@ services:
     ports:
       - 8080:8080
       - 443:443
+    # Uncomment for debug level logging
+    # command: [nginx-debug, '-g', 'daemon off;']
